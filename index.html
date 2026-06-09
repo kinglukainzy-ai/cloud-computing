@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cloud Innovators — Cloud Computing Practical Lab 1: Virtualization and Static Website Deployment." />
+  <title>Cloud Innovators | Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Preconnect for Google Fonts (loaded in CSS) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+
+      <!-- Logo -->
+      <a href="index.html" class="nav-logo" aria-label="Cloud Innovators Home">
+        <div class="logo-icon" aria-hidden="true">☁️</div>
+        <div class="logo-text">
+          Cloud Innovators
+          <span class="logo-sub">Cloud Computing Lab 1</span>
+        </div>
+      </a>
+
+      <!-- Desktop links -->
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <!-- Mobile hamburger button -->
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </nav><!-- /navbar -->
+
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" aria-labelledby="hero-title">
+
+    <!-- Decorative animated cloud drifts -->
+    <div class="cloud-float" aria-hidden="true"></div>
+    <div class="cloud-float" aria-hidden="true"></div>
+    <div class="cloud-float" aria-hidden="true"></div>
+
+    <div class="container hero-content">
+      <div class="hero-grid">
+
+        <!-- Left: Text -->
+        <div class="hero-text">
+          <div class="hero-badge" aria-label="Course label">
+            🎓 Cloud Computing Practical Lab 1
+          </div>
+
+          <h1 class="hero-title" id="hero-title">
+            Welcome to<br>
+            <span class="accent">Cloud Innovators</span>
+          </h1>
+
+          <p class="hero-desc">
+            Exploring virtualization and cloud infrastructure through hands-on
+            deployment. We build, we learn, we innovate — one cloud at a time.
+          </p>
+
+          <div class="hero-actions">
+            <a href="about.html" class="btn btn-primary">Meet the Team →</a>
+            <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+          </div>
+        </div><!-- /hero-text -->
+
+        <!-- Right: Visual with royalty-free cloud image -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-img-wrap">
+            <!--
+              Royalty-free cloud computing image from Unsplash (free to use).
+              Alt text provided for accessibility even though aria-hidden is
+              on the parent; retained for screen readers in browsers that ignore
+              the ancestor aria-hidden.
+            -->
+            <img
+              src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80"
+              alt="Abstract digital network and cloud infrastructure visualization"
+              loading="eager"
+            />
+          </div>
+
+          <!-- Overlaid stat cards -->
+          <div class="stat-card">
+            <div class="stat-num">4</div>
+            <div class="stat-lbl">Team Members</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-num">Lab 1</div>
+            <div class="stat-lbl">Practical Project</div>
+          </div>
+        </div><!-- /hero-visual -->
+
+      </div><!-- /hero-grid -->
+    </div><!-- /container -->
+
+  </section><!-- /hero -->
+
+
+  <!-- ============================================================
+       FEATURES SECTION — What we cover
+  ============================================================ -->
+  <section class="features" aria-labelledby="features-title">
+    <div class="container">
+
+      <div class="features-intro reveal">
+        <span class="section-label">Project Scope</span>
+        <h2 class="section-title" id="features-title">What This Project Covers</h2>
+        <p class="section-sub">
+          Our practical lab explores the foundational pillars of cloud computing —
+          from virtualization theory to live website deployment on cloud infrastructure.
+        </p>
+      </div>
+
+      <!-- Three feature cards -->
+      <div class="features-grid">
+
+        <article class="feature-card reveal" aria-label="Virtualization feature">
+          <div class="feature-icon" aria-hidden="true">🖥️</div>
+          <h3>Virtualization</h3>
+          <p>
+            Understanding how physical hardware is abstracted into multiple virtual
+            machines, enabling efficient resource allocation and isolation in cloud
+            environments.
+          </p>
+        </article>
+
+        <article class="feature-card reveal" aria-label="Cloud deployment feature">
+          <div class="feature-icon" aria-hidden="true">🚀</div>
+          <h3>Static Deployment</h3>
+          <p>
+            Deploying a multi-page static website to a cloud hosting provider,
+            applying real-world skills in web development and infrastructure management.
+          </p>
+        </article>
+
+        <article class="feature-card reveal" aria-label="Security feature">
+          <div class="feature-icon" aria-hidden="true">🔒</div>
+          <h3>Cloud Security Basics</h3>
+          <p>
+            Exploring fundamental security considerations in cloud deployments,
+            including access control, HTTPS, and best practices for protecting
+            hosted resources.
+          </p>
+        </article>
+
+      </div><!-- /features-grid -->
+
+    </div>
+  </section><!-- /features -->
+
+
+  <!-- ============================================================
+       TEAM STRIP — Quick group overview
+  ============================================================ -->
+  <section class="team-strip" aria-labelledby="team-title">
+    <div class="container">
+
+      <div class="reveal">
+        <span class="section-label">Group Members</span>
+        <h2 class="section-title" id="team-title">Meet the Cloud Innovators</h2>
+        <p class="section-sub">
+          Four students, one shared mission: master the cloud. Visit the About
+          page for the full team profile.
+        </p>
+      </div>
+
+      <!-- Avatar pills for each member -->
+      <div class="team-avatars reveal" role="list">
+
+        <div class="avatar-pill" role="listitem">
+          <div class="avatar-circle" aria-hidden="true">LN</div>
+          <span class="avatar-name">Lukeman Nana Yaw Quansah</span>
+        </div>
+
+        <div class="avatar-pill" role="listitem">
+          <div class="avatar-circle" aria-hidden="true">EC</div>
+          <span class="avatar-name">Elinam Cudjoe Gblologan</span>
+        </div>
+
+        <div class="avatar-pill" role="listitem">
+          <div class="avatar-circle" aria-hidden="true">WK</div>
+          <span class="avatar-name">Wisdom Korang</span>
+        </div>
+
+        <div class="avatar-pill" role="listitem">
+          <div class="avatar-circle" aria-hidden="true">PS</div>
+          <span class="avatar-name">Prince Shekiel Ibrahim Quao-Nelson</span>
+        </div>
+
+      </div><!-- /team-avatars -->
+
+      <div class="reveal" style="margin-top:2.5rem;">
+        <a href="about.html" class="btn btn-outline">Full Team Profile →</a>
+      </div>
+
+    </div>
+  </section><!-- /team-strip -->
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer role="contentinfo">
+    <div class="container">
+
+      <div class="footer-inner">
+
+        <!-- Brand column -->
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <div class="logo-icon" aria-hidden="true">☁️</div>
+            <div class="logo-text">
+              Cloud Innovators
+              <span class="logo-sub">Cloud Computing Lab 1</span>
+            </div>
+          </div>
+          <p>
+            A group project for Cloud Computing Practical Lab 1, exploring
+            virtualization and static website deployment on cloud platforms.
+          </p>
+        </div>
+
+        <!-- Quick links -->
+        <nav class="footer-col" aria-label="Footer navigation">
+          <h5>Pages</h5>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <!-- Project info -->
+        <div class="footer-col">
+          <h5>Project</h5>
+          <a href="#">Virtualization</a>
+          <a href="#">Static Deployment</a>
+          <a href="#">Cloud Concepts</a>
+        </div>
+
+      </div><!-- /footer-inner -->
+
+      <!-- Copyright bar -->
+      <div class="footer-bottom">
+        <span>© 2025 Cloud Innovators — Cloud Computing Practical Lab 1. All rights reserved.</span>
+        <span>Built with ☁️ HTML, CSS &amp; JavaScript</span>
+      </div>
+
+    </div>
+  </footer><!-- /footer -->
+
+
+  <script src="script.js"></script>
+</body>
+</html>
